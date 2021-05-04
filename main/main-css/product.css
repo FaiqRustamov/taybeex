@@ -1,0 +1,17 @@
+.left-imgs{
+    flex-direction: column;
+position: absolute;
+}
+.main-img{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    
+}
+.middle-img{
+    max-height: 540px;
+
+}
+.product-name{
+    text-align: center;
+}

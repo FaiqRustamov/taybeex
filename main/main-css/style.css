@@ -1155,9 +1155,11 @@ h2 {
 .product-detail {
     position: relative;
     width: 100%;
-    padding: 15px 0;
+    padding: 0px 0 15px;
 }
-
+.mehsul{
+    padding: 0px;
+}
 .product-detail .product-detail-top,
 .product-detail .product-detail-bottom {
     margin-bottom: 30px;

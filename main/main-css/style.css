@@ -11,8 +11,8 @@
   
 body {
     color: #353535;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
     background: #f3f6ff;
 }
 
@@ -137,6 +137,7 @@ h2 {
 .img-fluid{
     max-width: 265px;
     max-height: 365px;
+    width: 100%;
 }
 .product-box .img-wrapper .product-thumb-list, .product-wrap .img-wrapper .product-thumb-list {
     position: absolute;
@@ -281,7 +282,7 @@ h2 {
 
 .normal-slider .slick-prev::before,
 .normal-slider .slick-next::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     font-size: 30px;
     color: #ffffff;
@@ -519,7 +520,7 @@ h2 {
 /**********************************/
 /*********** Header CSS ***********/
 /**********************************/
-.header {
+/* .header {
     position: relative;
 }
 
@@ -663,7 +664,7 @@ h2 {
 
 .header .img-text:hover p {
     margin: 0;       
-}
+} */
 
 
 /**********************************/
@@ -701,9 +702,10 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     height: 100%;
-    max-height: 400px;
+    max-height: 300px;
     overflow: hidden;
     background: #ffffff;
+    padding: 2px;
 }
 
 .category .category-item.ch-400 {
@@ -1328,8 +1330,8 @@ h2 {
 
 .product-detail .tab-content ul li::before {
     content: '\f061';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 900;
     padding-right: 5px;
 }
 
@@ -1481,7 +1483,7 @@ h2 {
 
 .sidebar-widget.brands ul li a::before {
     content: '\f105';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     padding-right: 5px;
 }
@@ -1492,7 +1494,7 @@ h2 {
 
 .sidebar-widget.brands ul li a:hover::before {
     content: '\f101';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
 }
 
@@ -2307,7 +2309,7 @@ h2 {
 
 .brand .slick-prev::before,
 .brand .slick-next::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     font-size: 30px;
     color: #000000;
@@ -2661,13 +2663,30 @@ h2 {
     } 
 } */
 
-.section {
-    padding: 10rem 0 5rem 0;
+.first{
+display: none;
+}
+.three{
+    display: none;
+}
+@media only screen and (max-width: 769px) {
+    .first{
+        display: none;
+    }
+    .three{
+        display: block;
+    }
+    .second{
+        display: none;
+    }
+  }
+  .section {
+    padding: 0rem 0 5rem 0;
   }
   
   .section .title {
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
   }
   
   .section .title h2 {
@@ -2683,7 +2702,7 @@ h2 {
   .promotion-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    gap: 1rem;
   }
   
   .promotion-item {
@@ -2764,6 +2783,22 @@ h2 {
       font-size: 1.6rem;
     }
   }
+  @media only screen and (max-width: 768px) {
+ .cart{
+     font-size: small;
+     padding: 5px;
+    
+ }
+ .heart{
+     padding: 5px!important;
+ }
+  }
+.product-action-2 {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 9;
+}
   
   @media only screen and (max-width: 996px) {
     .promotion-layout {
@@ -2776,7 +2811,16 @@ h2 {
       grid-template-columns: 1fr;
     }
   }
-
+  @media only screen and (max-width: 768px) {
+   .ikonlar{
+       max-width: 60%;
+       margin: 10px;
+   }
+  }
+  .number{
+      font-size: 2.5rem;
+      margin: 5px;
+  }
 /* FOOTER */
 
 .footer {

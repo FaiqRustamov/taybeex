@@ -66,7 +66,7 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1,
@@ -78,7 +78,7 @@ h6 {
   color: #000;
   font-weight: 400;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
@@ -87,7 +87,7 @@ p {
   line-height: 24px;
   color: #666;
   margin-bottom: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
@@ -3252,7 +3252,6 @@ textarea:focus {
 
 .header-top-ptb-7 {
   padding: 20px 0 20px;}
-/* }
 
 .main-menu > nav > ul > li {
   display: inline-block;
@@ -3364,7 +3363,7 @@ textarea:focus {
 .main-menu > nav > ul > li a {
   color: #000000;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   display: inline-block;
 }
 
@@ -3521,7 +3520,7 @@ textarea:focus {
 }
 
 .main-menu.main-menu-lh-2 > nav > ul > li {
-  line-height: 78px;
+  line-height: 60px;
 }
 
 .main-menu.main-menu-lh-3 > nav > ul > li {
@@ -3819,7 +3818,7 @@ textarea:focus {
   text-align: center;
   color: #ffffff;
   font-size: 22px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
 }
 
@@ -4565,7 +4564,6 @@ textarea:focus {
           align-items: center;
   position: relative;
   z-index: 9;
-  border: 1px solid #e1e1e1;
 }
 
 .categori-search-wrap .categori-style-1 {
@@ -5976,14 +5974,14 @@ textarea:focus {
   line-height: 72px;
   font-weight: bold;
   margin: 20px 0 42px;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: -.25px;
 }
 
 .hero-slider-content-1 h1.font-dec {
   font-size: 39px;
   line-height: 48px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 16px 0 28px;
 }
 
@@ -8236,14 +8234,14 @@ textarea:focus {
 .about-us-content h3 {
   font-size: 24px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   text-transform: uppercase;
 }
 
 .about-us-content p {
   font-size: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 36px;
   margin: 23px 0 51px;
   width: 93%;
@@ -8269,7 +8267,7 @@ textarea:focus {
 
 .about-us-content .signature h2 {
   font-size: 24px;
-  font-family: "Signerica Fat";
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
@@ -8646,7 +8644,7 @@ textarea:focus {
 .section-title h2 {
   font-size: 24px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 0;
   text-transform: uppercase;
 }
@@ -9351,7 +9349,7 @@ textarea:focus {
 .single-product-wrap .product-content-wrap .product-content-left span {
   font-size: 20px;
   color: #000000;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .single-product-wrap .product-content-wrap .product-content-left span.new-price {
@@ -9423,7 +9421,7 @@ textarea:focus {
 .single-product-wrap .product-content-wrap-2 .product-rating-wrap span {
   margin-left: 6px;
   color: #999999;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .single-product-wrap .product-content-wrap-2 h3 {
@@ -9443,7 +9441,7 @@ textarea:focus {
 .single-product-wrap .product-content-wrap-2 .product-price-2 span {
   font-size: 18px;
   color: #000000;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   display: inline-block;
   margin: 0 4px;
 }
@@ -9591,13 +9589,13 @@ textarea:focus {
 .single-product-wrap .product-content-wrap-3 .product-rating-wrap-2 span {
   color: #999999;
   font-size: 12px;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin-left: 4px;
 }
 
 .single-product-wrap .product-content-wrap-3 .product-price-4 span {
   font-size: 18px;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: black;
 }
 
@@ -10677,7 +10675,7 @@ textarea:focus {
 .single-product-wrap-2 .product-content-3 .product-rating-wrap-2 span {
   font-size: 12px;
   color: #999999;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin-left: 5px;
 }
 
@@ -10705,7 +10703,7 @@ textarea:focus {
 
 .single-product-wrap-2 .product-content-3 .pro-price-action-wrap .product-price-3 span {
   font-size: 18px;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #000000;
 }
 
@@ -11989,7 +11987,7 @@ textarea:focus {
 .single-sidebar-product .sidebar-product-content .sidebar-product-price span {
   font-size: 18px;
   color: #000000;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   display: inline-block;
   line-height: 1;
 }
@@ -12524,7 +12522,7 @@ textarea:focus {
 .banner-wrap .banner-content-1 h2 {
   font-size: 36px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 40px;
   letter-spacing: -.25px;
   margin: 0;
@@ -12609,7 +12607,7 @@ textarea:focus {
 .banner-wrap .banner-content-2 h2 {
   font-size: 36px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 40px;
   letter-spacing: -.25px;
   margin: 0;
@@ -13032,7 +13030,7 @@ textarea:focus {
 .banner-wrap .banner-content-7-8-wrap .banner-content-7 span {
   font-size: 12px;
   color: #222222;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .banner-wrap .banner-content-7-8-wrap .banner-content-7 h2 {
@@ -13067,7 +13065,7 @@ textarea:focus {
 .banner-wrap .banner-content-7-8-wrap .banner-content-7 p {
   font-size: 14px;
   color: #999999;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 22px;
 }
 
@@ -13100,7 +13098,7 @@ textarea:focus {
   font-weight: bold;
   font-size: 36px;
   color: #df3434;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 4px 0 15px;
   text-transform: uppercase;
   line-height: 1;
@@ -14521,7 +14519,7 @@ textarea:focus {
 .banner-wrap .banner-content-24 h2 {
   font-weight: bold;
   color: #ffffff;
-  font-family: "Crimson Text", serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 40px;
   line-height: 36px;
   letter-spacing: -.25px;
@@ -15008,7 +15006,7 @@ textarea:focus {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 18px;
-  font-family: 'simple-line-icons';
+  font-family: 'Source Sans Pro', sans-serif;
   content: "\e01e";
   z-index: 999;
   color: #000000;
@@ -15052,7 +15050,7 @@ textarea:focus {
   font-weight: bold;
   color: #000000;
   font-size: 16px;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   letter-spacing: .75px;
   padding: 0;
@@ -15084,7 +15082,7 @@ textarea:focus {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 18px;
-  font-family: 'simple-line-icons';
+  font-family: 'Source Sans Pro', sans-serif;
   content: "\e01e";
   z-index: 999;
   color: #000000;
@@ -15143,7 +15141,7 @@ textarea:focus {
   font-weight: bold;
   color: #000000;
   font-size: 16px;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   letter-spacing: .75px;
   padding: 0 30px;
@@ -15261,7 +15259,7 @@ textarea:focus {
 .contact-info-wrap .single-contact-info span {
   font-size: 13px;
   color: #999999;
-  font-family: "Jost", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   text-transform: uppercase;
   letter-spacing: .5px;
   display: block;
@@ -15270,7 +15268,7 @@ textarea:focus {
 .contact-info-wrap .single-contact-info p {
   font-size: 18px;
   color: #000000;
-  font-family: "Cerebri Sans";
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 6px 0 0;
 }
 
@@ -15802,7 +15800,7 @@ textarea:focus {
 
 .instagram-style-1 .instagram_gallery .slick-list a::after {
   content: "\e609";
-  font-family: 'simple-line-icons';
+  font-family: 'Source Sans Pro', sans-serif;
   position: absolute;
   font-size: 36px;
   left: 0;
@@ -15898,7 +15896,7 @@ textarea:focus {
 
 .instagram-style-1 .instagram_gallery .slick-list a::after {
   content: "\e609";
-  font-family: 'simple-line-icons';
+  font-family: 'Source Sans Pro', sans-serif;
   position: absolute;
   font-size: 36px;
   left: 0;
@@ -16492,7 +16490,7 @@ textarea:focus {
 .product-details-content .pro-details-price span {
   font-size: 28px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .product-details-content .pro-details-price span.new-price {
@@ -16605,7 +16603,7 @@ textarea:focus {
 .product-details-content .pro-details-group .single-group .pro-dec-title-price .pro-dec-price span {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .product-details-content .pro-details-group .single-group .pro-dec-title-price .pro-dec-price span.new-price {
@@ -16899,7 +16897,7 @@ textarea:focus {
 .pro-details-color-content ul li a.active::before {
   color: #fff;
   content: "\eed8";
-  font-family: IcoFont;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   position: absolute;
   z-index: 9;
@@ -18432,7 +18430,7 @@ textarea:focus {
 .shop-list-wrap .shop-list-content .pro-list-price span {
   font-size: 20px;
   color: #000000;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   display: inline-block;
   margin: 0 4px;
 }
@@ -18465,7 +18463,7 @@ textarea:focus {
 .shop-list-wrap .shop-list-content .product-list-rating-wrap span {
   margin-left: 6px;
   color: #999999;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .shop-list-wrap .shop-list-content p {
@@ -18794,6 +18792,20 @@ h3.cart-page-title {
     padding-bottom: 30px;
   }
 }
+@media only screen and (max-width: 767px) {
+  .first-menu{
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .first-menu{
+    display: none !important;
+  }
+}
+.first-menu{
+  display: none !important;
+}
+
 
 .cart-table-content table tbody > tr td.product-wishlist-cart > a {
   background-color: #000000;
@@ -19440,12 +19452,15 @@ h3.cart-page-title {
   color: #6dde6d;
   display: inline-block;
   position: absolute;
-  font-family: 'simple-line-icons';
+  font-family: 'Source Sans Pro', sans-serif;
   left: 15px;
   top: 15px;
   font-size: 18px;
 }
-
+hr{
+  margin-top:0;
+  margin-bottom: 0;
+}
 .checkout-login-info {
   margin: 20px 0 0;
   display: none;

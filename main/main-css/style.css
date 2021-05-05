@@ -73,6 +73,32 @@ h2 {
     }
     
 }
+@media only screen and (max-width: 768px) {
+   .mehsul-adi{
+       font-size: 16px!important;
+   }
+   .cost{
+       font-size: 16px!important;
+   }
+   .azn{
+       font-size: 16px!important;
+   }
+   .front{
+       margin-right: 4px;
+   }
+   .urek{
+       font-size:18px !important;
+   }
+   .cancel{
+       font-size: 12px!important;
+   }
+   .taybex-logo{
+       width: 100%;
+   }
+    .ikonlar{
+max-width: 30%!important;
+    }
+}
 @media all  and (max-width: 374px) and (min-width:319px) {
     .img-wrapper{
         margin-left: 5%;
@@ -86,7 +112,7 @@ h2 {
     
 }
 .product-detail{
-    text-align: center;
+    text-align: left;
 }
     .product-box{
     position: relative;
@@ -104,18 +130,26 @@ h2 {
 }
 .product-box .img-wrapper .lable-block .lable3, .product-wrap .img-wrapper .lable-block .lable3 {
     border-radius: 100%;
-    background-color: #ff4c3b;
-    background-color:  #ff4c3b;
+    background-image: url(../../Images/Polygon\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     font-size: 14px;
     font-weight: 700;
     position: absolute;
     padding: 12px 6px;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(0, 0, 0);
     top: 7px;
     left: 7px;
     z-index: 1;
+}
+.mehsul-adi{
+    margin-top: 5px;
+    text-align: left !important;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 .product-box .img-wrapper .lable-block .lable4, .product-wrap .img-wrapper .lable-block .lable4 {
     position: absolute;
@@ -1157,9 +1191,18 @@ h2 {
     width: 100%;
     padding: 0px 0 15px;
 }
-.mehsul{
-    padding: 0px;
+@media (max-width:768px) {
+    .mehsul{
+        padding: 0px;
+    }
+    .product-action-2{
+        right: 5px !important;
+    }
+    .img-wrapper{
+        margin: 0px;
+    }
 }
+
 .product-detail .product-detail-top,
 .product-detail .product-detail-bottom {
     margin-bottom: 30px;
@@ -2169,9 +2212,8 @@ h2 {
     transition: all 300ms ease-in-out;
   } */
   .cost{
-    color: #16521b;
-    font-size: 18px;
-
+    color: #063ed8;
+    font-size: 26px;
   }
 
   .img-c{
@@ -2797,11 +2839,21 @@ display: none;
   }
 .product-action-2 {
     position: absolute;
-    right: 15px;
+    right: 35px;
     top: 15px;
     z-index: 9;
 }
-  
+.urek{
+    font-size: 30px;
+    color: black;
+}
+.urek:hover{
+    color: red;
+}
+  .btn-urek{
+      border: none!important;
+      background: none !important;
+  }
   @media only screen and (max-width: 996px) {
     .promotion-layout {
       grid-template-columns: repeat(2, 1fr);

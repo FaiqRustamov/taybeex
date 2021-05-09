@@ -169,8 +169,7 @@ max-width: 40%!important;
     height: auto;
 }
 .img-fluid{
-    max-width: 265px;
-    max-height: 365px;
+    
     width: 100%;
 }
 .product-box .img-wrapper .product-thumb-list, .product-wrap .img-wrapper .product-thumb-list {
@@ -2911,6 +2910,7 @@ display: none;
   }
   
   .footer-center h3 {
+color: red;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -2926,7 +2926,22 @@ display: none;
       row-gap: 2rem;
     }
   }
+
+  @media only screen and (max-width: 998px) {
+    .number{
+        font-size: 25px;
+    }
+  }
   
+  .normal-slider .slick-next{
+      display: none;
+  }
+  .normal-slider .slick-prev{
+      display: none;
+  }
+  .normal-slider .slick-dots{
+      display: none;
+  }
   @media only screen and (max-width: 768px) {
     .footer-container {
       grid-template-columns: 1fr;
@@ -2942,6 +2957,11 @@ display: none;
     background-color: #ffffff;
     width: 30%;
     height: 300px;
+  }
+  .img-item{
+      background-image: url(../../Images/dress04.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
   }
   
   /* Style the buttons inside the tab */
@@ -2996,7 +3016,7 @@ display: none;
   }
   .nav-link{
       margin-left: 20px;
-   color: rgb(0, 0, 0)!important;   
+   color: #f3970d;   
   }
   .ikons{
       margin-right: 10px;

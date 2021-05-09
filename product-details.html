@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
     <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css"> -->
+    <link href="./main/main-css/style.css" rel="stylesheet">
 
 </head>
 
@@ -40,142 +41,177 @@
 
     <div class="main-wrapper">
         <!-- Top bar Start -->
-        <div class="top-bar">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <i class="fa fa-envelope"></i>
-                        Taybeex.az MMC
-                    </div>
-                    <div class="col-sm-6">
-                        <i class="fa fa-phone-alt"></i>
-                        +994 50 807 38 19
-    
-                    </div>
-                </div>
-            </div>
-        </div>
+      
         <!-- Top bar End -->
     
         <!-- Nav Bar Start -->
-        <div class="nav">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">Taybeex</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <!-- Nav Bar Start -->
+        <header class="header-area">
+            <div class="header-large-device">
     
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto">
-                            <a href="index.html" class="nav-item nav-link active">Ana Səhifə</a>
-                            <a href="product-list.html" class="nav-item nav-link">Məhsullar</a>
-                            <!-- <a href="product-detail.html" class="nav-item nav-link">Product Detail</a> -->
-                            <a href="#" class="nav-item nav-link">Haqqımızda</a>
     
-                            <!-- <a href="cart.html" class="nav-item nav-link">Cart</a> -->
-                            <!-- <a href="checkout.html" class="nav-item nav-link">Checkout</a> -->
-                            <a href="#" class="nav-item nav-link"> Bizimlə Əlaqə</a>
-                            <!-- <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
-                                    <div class="dropdown-menu">
-                                        <a href="wishlist.html" class="dropdown-item">Wishlist</a>
-                                        <a href="login.html" class="dropdown-item">Login & Register</a>
-                                        <a href="contact.html" class="dropdown-item">Contact Us</a>
+    
+                <div class="header-middle header-middle-padding-1"
+                    style="margin-top:-30px; border-bottom:1px solid #dadada;">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-2 col-lg-2" style="-ms-flex: 0 0 30%; flex: 0 0 30%; max-width: 30%;">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-7"
+                                style="-ms-flex: 0 0 40%; flex: 0 0 40%; max-width: 40%; margin-left:0px;">
+                                <div class="categori-search-wrap"
+                                    style="border:3px solid #ffba25; font-color:#007bff;border-radius:20px;">
+    
+                                    <div class="search-wrap-3">
+                                        <form action="#">
+                                            <input placeholder="Məhsulu Axtar" type="text">
+                                            <button><i class="lnr lnr-magnifier"></i></button>
+                                        </form>
                                     </div>
-                                </div> -->
-                        </div>
-                        <div class="navbar-nav ml-auto">
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hesabım</a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Login</a>
-                                    <a href="#" class="dropdown-item">Register</a>
+                                </div>
+                            </div>
+    
+                            <div class="col-xl-4 col-lg-5" style="-ms-flex: 0 0 15%; flex: 0 0 15%; max-width: 15%;">
+                                <div class="header-top-right">
+                                    <div class="same-style-wrap">
+                                        <div class="same-style same-style-mrg-2 language-wrap">
+                                            <a class="language-dropdown-active" style="font-size:17px;" href="#">AZ<i
+                                                    class="icon-arrow-down"></i></a>
+                                            <div class="language-dropdown">
+                                                <ul>
+                                                    <li><a href="#">ENG</a></li>
+                                                    <li><a href="#">TR</a></li>
+                                                    <li><a href="#">RU</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3" style="-ms-flex: 0 0 15%; flex: 0 0 15%; max-width: 15%; ">
+                                <div class="header-action header-action-flex">
+                                    <div class="same-style-2 same-style-2-font-inc">
+                                        <a href="login-register.html"><i class="icon-user"
+                                                style="font-size:27px; padding-left: 7px;"></i></a>
+                                        <p style="font-size: 12px; text-align: center;">Hesabım</p>
+    
+                                    </div>
+                                    <div class="same-style-2 same-style-2-font-inc">
+                                        <a href="wishlist.html"><i class="icon-heart" style="font-size:27px;"></i><span
+                                                class="pro-count red">03</span></a>
+                                        <p style="font-size: 12px; text-align: center;">İstək </p>
+    
+                                    </div>
+                                    <div class="same-style-2 same-style-2-font-inc header-cart">
+                                        <a class="cart-active" href="#">
+                                            <i class="icon-basket-loaded" style="font-size:27px;"></i><span
+                                                class="pro-count red">02</span>
+    
+                                        </a>
+                                        <p style="font-size: 12px; text-align: center;">Səbət</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </nav>
-            </div>
-        </div>
-        <!-- Nav Bar End -->
+                </div>
+                <div class="header-bottom" style="border-bottom:1px solid#dadada;">
+                    <div class="container">
+                        <div class="row align-items-center">
     
-        <!-- Bottom Bar Start -->
-        <div class="bottom-bar">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-3">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="./Images/logo.png" alt="Logo">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="search">
-                            <input type="text" placeholder="Search">
-                            <button><i class="fa fa-search"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="user">
-                            <a style="border: 1px solid rgb(238, 187, 48) !important;" href="wishlist.html" class="btn wishlist">
-                                <i class="fa fa-heart"></i>
-                                <span>(0)</span>
-                            </a>
-                            <a style="border: 1px solid rgb(238, 187, 48) !important;" href="cart.html" class="btn cart">
-                                <i class="fa fa-shopping-cart"></i>
-                                <span>(0)</span>
-                            </a>
+                            <div class="col-lg-6" style="ms-flex: 0 0 100%; flex: 0 0 100%; max-width:100%;">
+                                <div class="main-menu main-menu-padding-1 main-menu-font-size-14 main-menu-lh-2">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#">Yeniliklər</a>
+    
+                                            </li>
+                                            <li><a href="#">Mağazalar</a>
+    
+                                            </li>
+                                            <li><a style="color: red;" href="#">Mağaza Yarat</a> </li>
+    
+                                            <li><a href="#">Haqqımızda</a>
+    
+                                            </li>
+                                            <li><a href="#">Bizimlə Əlaqə</a>
+    
+                                            </li>
+    
+    
+    
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+    
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="header-small-device small-device-ptb-1">
+                <div class="container">
+    
+                    <div class="row align-items-center">
+    
+                        <div class="col-5" style="float:left; ms-flex: 0 0 5%;flex: 0 0 5%; max-width: 5%;">
+                            <div class="same-style-2 main-menu-icon">
+                                <a class="mobile-header-button-active" href="#"><i class="icon-menu"></i> </a>
+                            </div>
+                        </div>
+                        <div class="col-5" style=" margin-right:0px;">
+    
+                            <div class="mobile-logo">
+                                <a href="index.html">
+                                    <img class="taybex-logo" alt="" src="assets/images/logo/logo.png">
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="col-7 ikonlar" style="float:left; ms-flex: 0 0 50%;flex: 0 0 50%; max-width: 50%;">
+                            <div class="header-action header-action-flex">
+                                <div class="same-style-2 same-style-2-font-inc">
+                                    <a href="login-register.html"><i class="icon-user"></i></a>
+                                </div>
+                                <div class="same-style-2 same-style-2-font-inc">
+                                    <a href="wishlist.html"><i class="icon-heart"></i><span
+                                            class="pro-count red">03</span></a>
+                                </div>
+                                <div class="same-style-2 same-style-2-font-inc header-cart">
+                                    <a class="cart-active" href="#">
+                                        <i class="icon-basket-loaded"></i><span class="pro-count red">02</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <div class="categori-search-wrap">
+    
+                                <div class="search-wrap-3"
+                                    style="border:3px solid #ffbe44; font-color:#007bff;border-radius:20px;">
+                                    <form action="#">
+                                        <input placeholder="Məhsulu Axtar" type="text">
+                                        <button><i class="lnr lnr-magnifier"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+        </header>
+        <!-- Nav Bar End -->
+        <!-- mobile header start -->
+      
         <!-- Bottom Bar End -->
     
         <!-- mini cart start -->
-        <div class="sidebar-cart-active">
-            <div class="sidebar-cart-all">
-                <a class="cart-close" href="#"><i class="icon_close"></i></a>
-                <div class="cart-content">
-                    <h3>Alış-Veriş Kartı</h3>
-                    <ul>
-                        <li class="single-product-cart">
-                            <div class="cart-img">
-                                <a href="#"><img src="assets/images/cart/cart-1.jpg" alt=""></a>
-                            </div>
-                            <div class="cart-title">
-                                <h4><a href="#">Qısa Qol Köynək</a></h4>
-                                <span> 1 × $49.00    </span>
-                            </div>
-                            <div class="cart-delete">
-                                <a href="#">×</a>
-                            </div>
-                        </li>
-                        <li class="single-product-cart">
-                            <div class="cart-img">
-                                <a href="#"><img src="assets/images/cart/cart-2.jpg" alt=""></a>
-                            </div>
-                            <div class="cart-title">
-                                <h4><a href="#">Çanta</a></h4>
-                                <span> 1 × $49.00    </span>
-                            </div>
-                            <div class="cart-delete">
-                                <a href="#">×</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="cart-total">
-                        <h4>Ümumi: <span>$98.00</span></h4>
-                    </div>
-                    <div class="cart-checkout-btn">
-                        <a class="btn-hover cart-btn-style" href="cart.html">SƏBƏTİ GÖSTƏR</a>
-                        <a class="no-mrg btn-hover cart-btn-style" href="checkout.html">TƏSDİQ ET</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+   
         <!-- mobile header start -->
         <div class="mobile-header-active mobile-header-wrapper-style">
             <div class="clickalbe-sidebar-wrap">
@@ -452,7 +488,7 @@
         </div>
     </div>
 </div> -->
-<div class="product-details-area pt-120 pb-115" style="margin-top:-180px;">
+<div class="product-details-area pt-120 pb-115" >
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-12"  style="    margin-top: 100px;">
@@ -1034,127 +1070,47 @@
         </div>
 
         
-        <footer class="footer-area bg-gray-4" style="margin-top:100px; border-top:1px solid #dbdbdb;">
-           <div class="footer-top border-bottom-4 pb-55">
-               <div class="container" >
-                   <div class="row" >
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-12" style="margin-top:100px;">
-                                                  <div class="footer-widget mb-40">
-                                                      <h3 class="footer-title">Məhsullar</h3>
-                                                      <div class="footer-info-list info-list-50-parcent">
-                                                          <ul>
-                                                              <li><a href="product-details.html">Məhsul 1</a></li>
-                                                              <li><a href="product-details.html">Məhsul 2</a></li>
-                                                              <li><a href="product-details.html">Məhsul 3</a></li>
-                                                              <li><a href="product-details.html">Məhsul 4</a></li>
-                                                              <li><a href="product-details.html">Məhsul 5</a></li>
-                                                              <li><a href="product-details.html">Məhsul 6</a></li>
-                                                              <li><a href="product-details.html">Məhsul 7</a></li>
-                                                              <li><a href="product-details.html">Məhsul 8</a></li>
-                                                              <li><a href="product-details.html">Məhsul 9</a></li>
-                                                              <li><a href="product-details.html">Məhsul 10</a></li>
-                                                              <li><a href="product-details.html">Məhsul 11</a></li>
-                                                              <li><a href="product-details.html">Məhsul 12</a></li>
-                                                              <li><a href="product-details.html">Məhsul 13</a></li>
-                                                              <li><a href="product-details.html">Məhsul 14</a></li>
-                                                              <li><a href="product-details.html">Məhsul 15</a></li>
-                                                              <li><a href="product-details.html">Məhsul 16</a></li>
-                                                              <li><a href="product-details.html">Məhsul 17</a></li>
-                                                              <li><a href="product-details.html">Məhsul 18</a></li>
-                                                          </ul>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                        
-                       <div class="col-lg-4 col-md-4 col-sm-6 col-12" style="margin-top:100px;">
-                           <div class="footer-widget mb-40" >
-                               <h3 class="footer-title">Məhsullar</h3>
-                               <div class="footer-info-list info-list-50-parcent">
-                                   <ul>
-                                       <li><a href="product-details.html">Məhsul 1</a></li>
-                                       <li><a href="product-details.html">Məhsul 2</a></li>
-                                       <li><a href="product-details.html">Məhsul 3</a></li>
-                                       <li><a href="product-details.html">Məhsul 4</a></li>
-                                       <li><a href="product-details.html">Məhsul 5</a></li>
-                                       <li><a href="product-details.html">Məhsul 6</a></li>
-                                       <li><a href="product-details.html">Məhsul 7</a></li>
-                                       <li><a href="product-details.html">Məhsul 8</a></li>
-                                       <li><a href="product-details.html">Məhsul 9</a></li>
-                                       <li><a href="product-details.html">Məhsul 10</a></li>
-                                       <li><a href="product-details.html">Məhsul 11</a></li>
-                                       <li><a href="product-details.html">Məhsul 12</a></li>
-                                       <li><a href="product-details.html">Məhsul 13</a></li>
-                                       <li><a href="product-details.html">Məhsul 14</a></li>
-                                       <li><a href="product-details.html">Məhsul 15</a></li>
-                                       <li><a href="product-details.html">Məhsul 16</a></li>
-                                       <li><a href="product-details.html">Məhsul 17</a></li>
-                                       <li><a href="product-details.html">Məhsul 18</a></li>
-                                   </ul>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-lg-4 col-md-4 col-sm-12 col-12" style="margin-top:100px;">
-                           <div class="footer-widget mb-40 ">
-                               <h3 class="footer-title">BİZİMLƏ ƏLAQƏ</h3>
-                               <div class="contact-info-2">
-                                   <div class="single-contact-info-2">
-                                       <div class="contact-info-2-icon">
-                                           <i class="icon-call-end"></i>
-                                       </div>
-                                       <div class="contact-info-2-content">
-                                           <p>Sualın Var? Zəng Et 24/7</p>
-                                           <h3>(+994 70) 666 6666</h3>
-                                       </div>
-                                   </div>
-                                   <div class="single-contact-info-2">
-                                       <div class="contact-info-2-icon">
-                                           <i class="icon-cursor icons"></i>
-                                       </div>
-                                       <div class="contact-info-2-content">
-                                           <p>Azerbaijan / Baku</p>
-                                       </div>
-                                   </div>
-                                   <div class="single-contact-info-2">
-                                       <div class="contact-info-2-icon">
-                                           <i class="icon-envelope-open "></i>
-                                       </div>
-                                       <div class="contact-info-2-content">
-                                           <p>contact@taybeex.az</p>
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="social-style-1 social-style-1-font-inc social-style-1-mrg-2">
-                                   <a href="#"><i class="icon-social-facebook"></i></a>
-                                   <a href="#"><i class="icon-social-instagram"></i></a>
-                                   <a href="#"><i class="icon-social-youtube"></i></a>
-                               </div>
-                               <div class="app-img" style="margin-top:50px;">
-                                   <a href="#"><img src="assets/images/icon-img/app-1.png" alt=""></a>
-                                   <a href="#"><img src="assets/images/icon-img/app-2.png" alt=""></a>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           <div class="footer-bottom pt-30 pb-30 ">
-               <div class="container">
-                   <div class="row flex-row-reverse">
-                       <div class="col-lg-6 col-md-6">
-                           <div class="payment-img payment-img-right" >
-                               <a href="#"><img src="assets/images/icon-img/payment.png" alt=""></a>
-                           </div>
-                       </div>
-
-                       <div class="col-lg-6 col-md-6" >
-                           <div class="copyright copyright-center">
-                               <p>© 2020 TAYBEEX | <a href="https://azlaw.az/">All Right Reserved</a>.</p>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </footer>
+        <footer id="footer" class="section footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-center">
+                        <h3>EXTRAS</h3>
+                        <a href="#">Brands</a>
+                        <a href="#">Gift Certificates</a>
+                        <a href="#">Affiliate</a>
+                        <a href="#">Specials</a>
+                        <a href="#">Site Map</a>
+                    </div>
+                    <div class="footer-center">
+                        <h3>INFORMATION</h3>
+                        <a href="#">About Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Site Map</a>
+                    </div>
+                    <div class="footer-center">
+                        <h3>MY ACCOUNT</h3>
+                        <a href="#">My Account</a>
+                        <a href="#">Order History</a>
+                        <a href="#">Wish List</a>
+                        <a href="#">Newsletter</a>
+                        <a href="#">Returns</a>
+                    </div>
+                    <div class="footer-center">
+                        <h3>CONTACT US</h3>
+    
+                        <div>
+    
+                            <p class="number"> 456-456-4512 </p>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
     </div>
 
     <!-- All JS is here
